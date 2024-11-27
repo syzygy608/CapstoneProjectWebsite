@@ -6,7 +6,7 @@
     "dev": "npx tailwindcss -i ./src/css/index.css -o ./src/css/tailwind.css --minify && vite",
     "css": "npx tailwindcss -i ./src/css/index.css -o ./src/css/tailwind.css --minify --watch",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 3000"
   },
   "dependencies": {
     "axios": "^1.7.8",
